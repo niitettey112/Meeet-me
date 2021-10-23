@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  
+body{
+    font-family: 'Cabin', sans-serif; 
+    background: #072d3b;
+}
+
+.logo{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    margin: 1em;
+}
+
+.avatar1{
+    position: absolute;
+    top: 49%;
+    left: 66%;
+}
+
+.avatar2{
+    position: absolute;
+    top: 7%;
+    left: 65%;
+}
+
+.avatar3{
+    position: absolute;
+    top: 17%;
+    left: 9%;
+}
+
+.avatar4{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 15%;
+}
+
+.avatar5{
+    position: absolute;
+    top: 15%;
+    left: 53%;
+}
+
+.container{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    color: #32f5c8;
+    margin: 1em;
+}
+
+.text h2{
+    font-size: 7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+}
+
+.text p{
+    font-size: 1rem;
+    color: #bac1bf;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+button{
+    width: 30%;
+    padding: 1rem;
+    margin: 1em;
+    background-color: #32f5c8;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #bac1bf;
+    margin: 1em;
+    font-size: 1rem;
+}
+
+img{
+    margin-right: 1rem;
+}
+
+@media (max-width: 670px){
+    .logo{
+        position: absolute;
+        top: 1%;
+        left: 10%;
+    }
+
+    .text h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 6px;
+        margin-top: 4rem;
+    }
+
+    .avatar4{
+        display: none;
+    }
+    
+    .avatar5{
+        display: none;
+    }
+
+    .avatar1{
+        position: absolute;
+        top: 65%;
+        left: 67%;
+    }
+    
+    .avatar2{
+        position: absolute;
+        top: 13%;
+        left: 60%;
+
+    }
+    
+    .avatar3{
+        position: absolute;
+        top: 15%;
+        left: 15%;
+    }
+
+    button{
+        width: 75%;
+        padding: 1rem;
+        margin: 1em;
+        background-color: #32f5c8;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .text p{
+        font-size: 1.1rem;
+        color: #bac1bf;
+        font-weight: 500;
+        letter-spacing: 2px;
+        padding: 5px;
+    }
+}
